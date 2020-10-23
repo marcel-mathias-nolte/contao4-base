@@ -1,8 +1,8 @@
 {
-    "name": "contao/skeleton-bundle",
+    "name": "marcel-mathias-nolte/contao4-base",
     "type": "contao-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
-    "homepage": "https://contao.org",
+    "description": "Skeleton for all my Contao 4 bundles",
+    "homepage": "https://marcel.live",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
@@ -12,6 +12,10 @@
         {
             "name": "Contao Community",
             "homepage": "https://contao.org/contributors"
+        },
+        {
+            "name": "Marcel Mathias Nolte",
+            "homepage": "https://mrcel.live"
         }
     ],
     "require": {
@@ -33,20 +37,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "MarcelMathiasNolte\\SkeletonBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "MarcelMathiasNolte\\SkeletonBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "MarcelMathiasNolte\\SkeletonBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
+        "issues": "https://github.com/marcel-mathias-nolte/contao4-base/issues",
+        "source": "https://github.com/marcel-mathias-nolte/contao4-base"
     }
 }

@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle;
+namespace MarcelMathiasNolte\SkeletonBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

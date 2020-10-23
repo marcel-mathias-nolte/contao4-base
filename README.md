@@ -4,6 +4,8 @@ Contao is an Open Source PHP Content Management System for people who want a
 professional website that is easy to maintain. Visit the [project website][1]
 for more information.
 
+This is my fork of the official skeleton bundle prepared for my own bundles
+
 You can use the skeleton bundle as basis for your own Contao bundle.
 
 ## Install
@@ -11,7 +13,7 @@ You can use the skeleton bundle as basis for your own Contao bundle.
 Download the skeleton bundle:
 
 ```bash
-wget https://github.com/contao/skeleton-bundle/archive/master.zip
+wget https://github.com/marcel-mathias-nolte/contao4-base/archive/master.zip
 unzip master.zip
 mv skeleton-bundle-master [package name]
 cd [package name]
