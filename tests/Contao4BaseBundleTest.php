@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of SkeletonBundle.
  *
  * (c) John Doe
  *
@@ -10,10 +10,9 @@
 
 namespace MarcelMathiasNolte\SkeletonBundle\Tests;
 
-use MarcelMathiasNolte\SkeletonBundle\ContaoSkeletonBundle;
 use PHPUnit\Framework\TestCase;
 
-class SkeletonBundleTest extends TestCase
+class Contao4BaseBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
